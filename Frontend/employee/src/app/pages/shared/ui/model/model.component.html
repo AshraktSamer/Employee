@@ -1,8 +1,7 @@
 @if (isOpen) {
-  <div class="top-0 left-0 w-screen h-screen fixed flex justify-center items-center z-30">
-    <div class="bg-white rounded-lg p-6 w-1/4 z-30">
+  <div class="position-fixed top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-50 z-3">
+    <div class="bg-white rounded-lg p-4 w-25">
       <ng-content></ng-content>
     </div>
-    <div class="flex h-screen w-screen absolute bg-gray-900/60"></div>
   </div>
-  }
+}
