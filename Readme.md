@@ -1,4 +1,4 @@
-# Employee
+# Employee system
 
 Simple web application that performs CRUD operations built using the MEAN stack technologies (MongoDB, Express, Angular, Node.js). The project consists of both the backend (Node.js and Express) and frontend (Angular) applications.
 
